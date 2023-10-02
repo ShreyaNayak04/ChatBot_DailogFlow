@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b3a9a9;
+}
+
+header {
+    background-color: #b80c48;
+    text-align: center;
+    padding: 20px;
+    color: #320e93;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #1a1819;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #16a31a;
+}
+
+section {
+    margin: 20px;
+    background-color: #beb7b7;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color:#b80c48;
+}
+
+footer {
+    background-color:#b80c48;
+    text-align: center;
+    padding: 10px;
+    color: #433f3f;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.chat-bot {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    z-index: 1000; 
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px; /* or any other value */
+    padding: 0 20px; /* adding 20px of padding */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cec9c9;
+    text-align: center;
+}
+section img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
